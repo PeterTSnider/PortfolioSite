@@ -10,7 +10,6 @@ import ExtLinkButton from "../components/interface/buttons/ExtLinkButton";
 import vald_bbhill2 from "../assets/Images/vald_bbhill2.jpg";
 import PS_Logo from "../assets/Images/PS_Logo.png";
 
-
 interface Props {
   src: any;
 }

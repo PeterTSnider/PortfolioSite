@@ -6,7 +6,7 @@ import ContentBox from "../components/containers/PageBoxes/ContentBox";
 import ImageBox from "../components/containers/PageBoxes/ImageBox";
 import PageWrapper from "../components/containers/Wrappers/PageWrapper";
 import ViewWrapper from "../components/containers/Wrappers/ViewWrapper";
-import WordBox from "../components/containers/PageBoxes/WordBox";
+import WordBox from "../components/containers/PageBoxes/WordsBox";
 import SubtitleBox from "../components/containers/PageBoxes/SubtitleBox";
 
 import headshot from "../assets/Images/headshot.jpg";
@@ -18,7 +18,7 @@ const LandingBackground = styled(MainBox)`
 
 const PortraitBox = styled(ImageBox)`
   border-radius: 1.5rem;
-`
+`;
 
 const Portrait = styled(ImageBox)`
   content: url(${headshot});
