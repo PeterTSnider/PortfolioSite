@@ -9,6 +9,8 @@ import ExtLinkButton from "../components/interface/buttons/ExtLinkButton";
 // image imports:
 import vald_bbhill2 from "../assets/Images/vald_bbhill2.jpg";
 import PS_Logo from "../assets/Images/PS_Logo.png";
+import WordsBox from "../components/containers/PageBoxes/WordsBox";
+import seattleAlley from "../assets/Images/seattle_alley.jpg";
 
 interface Props {
   src: any;
@@ -21,10 +23,10 @@ const ProjectsBackground = styled(MainBox)`
 const ProjCard = styled.div`
   background-color: #212121;
   height: 20rem;
-  width: 60rem;
-  transform: translateZ(1px) scale(0.75);
+  width: 100rem;
+  transform: translateZ(-2px);
   z-index: 1;
-  margin: 6rem auto;
+  margin: 7rem auto 0rem auto;
   border-radius: 2rem;
   display: flex;
   align-items: center;
@@ -38,22 +40,29 @@ const ProjThumbnail = styled.img<Props>`
 `;
 
 const ProjDescription = styled.div`
+  font-size: 1.25rem;
   display: flex;
   flex-direction: column;
-  margin: 0.5rem;
-  padding: 1rem;
+  margin: 1rem;
+  align-content: left;
 `;
 const ProjName = styled.div`
   font-size: 2rem;
   text-align: left;
-  margin-bottom: 1rem;
+  margin: 1rem;
 `;
 
 const ProjLink = styled(ExtLinkButton)`
-  margin: 1.5rem auto;
   font-size: 1.2rem;
   padding: 1rem;
+  margin: 1rem;
 `;
+
+const LinkBox = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+`
 
 function Projects() {
   return (
@@ -69,16 +78,18 @@ function Projects() {
             <ProjThumbnail src={PS_Logo} />
             <ProjDescription>
               <ProjName>This Site</ProjName>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quod
-              voluptatum dignissimos provident repudiandae officiis molestias
-              minus facilis deleniti modi nostrum saepe odio quas temporibus,
-              officia ipsum ratione est culpa distinctio eum, nisi alias facere
-              excepturi omnis! Impedit, ad neque facilis voluptatibus, sequi
-              eligendi ea eaque beatae perferendis repudiandae ipsum dolore
-              temporibus blanditiis consequatur!
-              <ProjLink>
-                <a href="https://www.petertsnider.com">This Site</a>
-              </ProjLink>
+              <ProjDescription>
+                In a much needed revamp of my existing personal website, I built
+                a very simple website using Reactjs with styled-components. Future upgrades include a refactor of the component/page structure, implementation of a styling framework for select user interactions, and an expansion of About Me to include periodic updates.
+              </ProjDescription>
+              <LinkBox>
+                <ProjLink>
+                  <a href="https://www.petertsnider.com">Link</a>
+                </ProjLink>
+                <ProjLink>
+                  <a href="https://www.petertsnider.com">Github Repo</a>
+                </ProjLink>
+              </LinkBox>
             </ProjDescription>
           </ProjCard>
         </ViewWrapper>
