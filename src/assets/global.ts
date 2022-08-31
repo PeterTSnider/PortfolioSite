@@ -8,7 +8,6 @@ const GlobalStyles = createGlobalStyle`
 *{
     font-family: 'Outfit', sans-serif;
     color: #dddddd;
-    font-size: 1rem;
     margin: 0;
     padding: 0;
     outline: 0;
