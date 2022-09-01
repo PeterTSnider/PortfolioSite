@@ -9,8 +9,6 @@ import ExtLinkButton from "../components/interface/buttons/ExtLinkButton";
 // image imports:
 import vald_bbhill2 from "../assets/Images/vald_bbhill2.jpg";
 import PS_Logo from "../assets/Images/PS_Logo.png";
-import WordsBox from "../components/containers/PageBoxes/WordsBox";
-import seattleAlley from "../assets/Images/seattle_alley.jpg";
 
 interface Props {
   src: any;
