@@ -88,20 +88,20 @@ function About() {
               private sectors. I learned to take ownership of projects from
               proposal to invoicing and close-out and work with a team to manage
               a dynamic schedule that always felt just one technician too short.
-            </ParagBox>{" "}
+            </ParagBox>
             <ParagBox>
               I found an increasingly strong pull to create, and coupled with an
-              interest in the seemingly endless possibilities offered by building
-              with code, I began to think more seriously about where my
+              interest in the seemingly endless possibilities offered by
+              building with code, I began to think more seriously about where my
               aspirations could take me. In early 2022 and after careful
-              consideration, I decided to take the plunge and commit full-time to
-              learning software development. A sixteen-week coding bootcamp may be
-              the least amount of sleep I've ever survived on, but it gave me the
-              skills to build, and build on learning. I'm excited at the prospect
-              of working with a team to build real, deployed apps to reach users
-              worldwide. I'm hungry to keep learning and can't wait to sink my
-              teeth into a codebase that I can contribute to as well as learn
-              from!
+              consideration, I decided to take the plunge and commit full-time
+              to learning software development. A sixteen-week coding bootcamp
+              may be the least amount of sleep I've ever survived on, but it
+              gave me the skills to build, and build on learning. I'm excited at
+              the prospect of working with a team to build real, deployed apps
+              to reach users worldwide. I'm hungry to keep learning and can't
+              wait to sink my teeth into a codebase that I can contribute to as
+              well as learn from!
             </ParagBox>
           </WordsBox>
           <ContentPic height="18rem" src={resp} />
@@ -109,16 +109,16 @@ function About() {
         <ContentBox>
           <ContentPic height="25rem" src={fam_car} />
           <WordsBox>
-            <SubtitleBox>Personal Life</SubtitleBox>Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. Quae, numquam odit. Inventore, iste
-            optio culpa veniam distinctio perferendis, voluptas repellendus
-            temporibus possimus obcaecati ut. Nam est aperiam aut ipsa eos
-            dolorem mollitia consectetur vitae fugit debitis molestias officia
-            error blanditiis esse veritatis quaerat perferendis earum qui
-            consequuntur, dolore, velit sunt numquam! Distinctio exercitationem
-            reiciendis corporis aspernatur, id, dolorum aut facere provident
-            numquam, magnam modi alias asperiores facilis velit cupiditate
-            accusamus blanditiis debitis atque?
+            <SubtitleBox>Personal Life</SubtitleBox>
+            <ParagBox>
+              Happy to call the Ballard neighborhood of Seattle home, I live
+              with my girlfriend Shannon and our hundred-pound lap dog Chessa.
+              Shan is a loving and brilliantly sharp RN in the Cardiac-ICU. When
+              Shan isn't (literally!) saving lives and Chessa isn't, well - napping -
+              we like to get outside and on the trail for an overnight
+              backpacking trip, a visit with family, a SUP splash around a local
+              lake, or pushing some snow around up in the hills in the wintertime. 
+            </ParagBox>
           </WordsBox>
         </ContentBox>
       </PageWrapper>
