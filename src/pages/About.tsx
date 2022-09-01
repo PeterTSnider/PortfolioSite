@@ -112,12 +112,11 @@ function About() {
             <SubtitleBox>Personal Life</SubtitleBox>
             <ParagBox>
               Happy to call the Ballard neighborhood of Seattle home, I live
-              with my girlfriend Shannon and our hundred-pound lap dog Chessa.
-              Shan is a loving and brilliantly sharp RN in the Cardiac-ICU. When
-              Shan isn't (literally!) saving lives and Chessa isn't, well - napping -
-              we like to get outside and on the trail for an overnight
-              backpacking trip, a visit with family, a SUP splash around a local
-              lake, or pushing some snow around up in the hills in the wintertime. 
+              with my girlfriend, Shannon (Shan), and our hundred-pound lap dog,
+              Chessa. Shan is a loving and brilliantly sharp RN in the
+              Cardiac-ICU. When Shan isn't saving lives we like to get outside
+              and on the trail for an overnight backpacking trip, a visit with
+              family, a SUP splash around a local lake, or skiing in the winter.
             </ParagBox>
           </WordsBox>
         </ContentBox>
