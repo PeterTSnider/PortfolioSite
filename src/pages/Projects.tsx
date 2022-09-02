@@ -21,7 +21,7 @@ const ProjectsBackground = styled(MainBox)`
 const ProjCard = styled.div`
   background-color: #212121;
   height: 20rem;
-  width: 100rem;
+  width: 75vw;
   transform: translateZ(-2px);
   z-index: 1;
   margin: 7rem auto 0rem auto;

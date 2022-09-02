@@ -13,7 +13,9 @@ import ParagBox from "../components/containers/PageBoxes/ParagBox";
 import summitlk1 from "../assets/Images/summitlk1.jpg";
 import mas from "../assets/Images/mas.jpg";
 import resp from "../assets/Images/respirator.jpg";
-import fam_car from "../assets/Images/fam_car.jpg";
+import us_GH from "../assets/Images/us_GH.jpg";
+import gram_car from "../assets/Images/gram_car.jpg";
+import jobsite from "../assets/Images/jobsite.jpg";
 
 interface ImgProps {
   src: any;
@@ -70,6 +72,7 @@ function About() {
           </WordsBox>
         </ContentBox>
         <ContentBox>
+          <ContentPic height="20rem" src={resp} />
           <WordsBox>
             <SubtitleBox>Professional Life</SubtitleBox>
             <ParagBox>
@@ -90,35 +93,42 @@ function About() {
               a dynamic schedule that always felt just one technician too short.
             </ParagBox>
             <ParagBox>
-              I found an increasingly strong pull to create, and coupled with an
-              interest in the seemingly endless possibilities offered by
-              building with code, I began to think more seriously about where my
-              aspirations could take me. In early 2022 and after careful
-              consideration, I decided to take the plunge and commit full-time
-              to learning software development. A sixteen-week coding bootcamp
-              may be the least amount of sleep I've ever survived on, but it
-              gave me the skills to build, and build on learning. I'm excited at
-              the prospect of working with a team to build real, deployed apps
-              to reach users worldwide. I'm hungry to keep learning and can't
-              wait to sink my teeth into a codebase that I can contribute to as
-              well as learn from!
+              With a growing desire to distance myself from the commerical
+              construction industry, I also found an increasingly strong pull to
+              create, and coupled with an interest in the seemingly endless
+              possibilities offered by building with code, I began to think more
+              seriously about where my aspirations could take me. In early 2022
+              and after careful consideration, I decided to take the plunge and
+              commit full-time to learning software development. A sixteen-week
+              coding bootcamp may be the least amount of sleep I've ever
+              survived on, but it gave me the skills to build, and build on
+              learning. I'm excited at the prospect of working with a team to
+              build real, deployed apps to reach users worldwide. I'm hungry to
+              keep learning and can't wait to sink my teeth into a codebase that
+              I can contribute to as well as learn from!
             </ParagBox>
           </WordsBox>
-          <ContentPic height="18rem" src={resp} />
+          <ContentPic height="15rem" src={jobsite} />
         </ContentBox>
         <ContentBox>
-          <ContentPic height="25rem" src={fam_car} />
+          <ContentPic height="25rem" src={us_GH} />
           <WordsBox>
             <SubtitleBox>Personal Life</SubtitleBox>
             <ParagBox>
               Happy to call the Ballard neighborhood of Seattle home, I live
               with my girlfriend, Shannon (Shan), and our hundred-pound lap dog,
               Chessa. Shan is a loving and brilliantly sharp RN in the
-              Cardiac-ICU. When Shan isn't saving lives we like to get outside
-              and on the trail for an overnight backpacking trip, a visit with
-              family, a SUP splash around a local lake, or skiing in the winter.
+              Cardiac-ICU. When Shan isn't saving lives and I'm not at the
+              keyboard, we like to get outside and on the trail for an overnight
+              backpacking trip, a visit with family, a SUP splash around a local
+              lake, or skiing in the winter.
+            </ParagBox>
+            <ParagBox>
+              If we aren't out and about, we're likely cooking at home, spending
+              some time with the dog, or planning our next travel adventure!
             </ParagBox>
           </WordsBox>
+          <ContentPic height="20rem" src={gram_car} />
         </ContentBox>
       </PageWrapper>
     </>
