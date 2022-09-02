@@ -61,7 +61,7 @@ function About() {
               about my passions and pastimes as well as professional experience.
               I'm proud to call Seattle home and love all everything about the
               Pacific Northwest. Please also have a look at my profile on{" "}
-              <Link href="https://github.com/PeterTSnider">Github</Link> for
+              <Link href="https://www.github.com/PeterTSnider">Github</Link> for
               project code repos.
             </ParagBox>
             <ParagBox>
