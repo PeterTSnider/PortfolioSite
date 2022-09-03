@@ -85,10 +85,13 @@ function Projects() {
                   <a href="https://www.petertsnider.com">Link</a>
                 </ProjLink>
                 <ProjLink>
-                  <a href="https://www.petertsnider.com">Github Repo</a>
+                  <a href="https://www.github.com/PeterTSnider/PortfolioSite">Github Repo</a>
                 </ProjLink>
               </LinkBox>
             </ProjDescription>
+          </ProjCard>
+          <ProjCard>
+            <ProjDescription>(More projects on the way!)</ProjDescription>
           </ProjCard>
         </ViewWrapper>
       </PageWrapper>

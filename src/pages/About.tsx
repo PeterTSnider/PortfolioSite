@@ -16,6 +16,8 @@ import resp from "../assets/Images/respirator.jpg";
 import us_GH from "../assets/Images/us_GH.jpg";
 import gram_car from "../assets/Images/gram_car.jpg";
 import jobsite from "../assets/Images/jobsite.jpg";
+import PS_Logo from "../assets/Images/PS_Logo.png";
+import desk from "../assets/Images/desk.jpg"
 
 interface ImgProps {
   src: any;
@@ -30,6 +32,14 @@ const AboutBackground = styled(MainBox)`
   content: url(${summitlk1});
 `;
 
+const ContSubBox = styled(ContentBox)`
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  margin: auto;
+  align-items: top;
+`;
+
 const ContentPic = styled.img<ImgProps>`
   width: ${(p) => p.width};
   height: ${(p) => p.height};
@@ -37,8 +47,22 @@ const ContentPic = styled.img<ImgProps>`
   margin: 1.5em;
 `;
 
-const Link = styled.a<LnkProps>`
+const PicWCap = styled.div`
+  width: 30vw;
+  margin: auto 2rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+const BigLink = styled.a<LnkProps>`
   color: lightblue;
+`;
+
+const SmlLink = styled.a<LnkProps>`
+  color: #2d2dcf;
 `;
 
 function About() {
@@ -61,8 +85,10 @@ function About() {
               about my passions and pastimes as well as professional experience.
               I'm proud to call Seattle home and love all everything about the
               Pacific Northwest. Please also have a look at my profile on{" "}
-              <Link href="https://www.github.com/PeterTSnider">Github</Link> for
-              project code repos.
+              <BigLink href="https://www.github.com/PeterTSnider">
+                Github
+              </BigLink>{" "}
+              for project code repos.
             </ParagBox>
             <ParagBox>
               Also! Please stop by periodically as I'm always working on
@@ -90,7 +116,7 @@ function About() {
               proud to manage projects and clients for both the public and
               private sectors. I learned to take ownership of projects from
               proposal to invoicing and close-out and work with a team to manage
-              a dynamic schedule that always felt just one technician too short.
+              a dynamic schedule that often felt just one technician too short.
             </ParagBox>
             <ParagBox>
               With a growing desire to distance myself from the commerical
@@ -129,6 +155,33 @@ function About() {
             </ParagBox>
           </WordsBox>
           <ContentPic height="20rem" src={gram_car} />
+        </ContentBox>
+        <SubtitleBox>Honorable Mentions</SubtitleBox>
+        <ContentBox>
+          <ContSubBox>
+            <PicWCap>
+              <ContentPic height="15rem" src={PS_Logo} />
+              <ParagBox>
+                <h4>My Logo</h4>
+              </ParagBox>
+              <ParagBox>
+                The result of a few hours of experimentation with GIMP, I wanted
+                to combine the{" "}
+                <SmlLink href="https://en.wikipedia.org/wiki/Doug_flag#:~:text=The%20Doug%20flag%2C%20also%20referred,Canadian%20province%20of%20British%20Columbia%2C">
+                  Doug Flag
+                </SmlLink> with the lion rampant and shield shape as homage to my family heritage and identity.
+              </ParagBox>
+            </PicWCap>
+            <PicWCap>
+            <ContentPic height="20rem" src={desk} />
+              <ParagBox>
+                <h4>My Desk</h4>
+              </ParagBox>
+              <ParagBox>
+                My desk started it's life as a door hatch on a WWII Liberty Ship. The frame is a hand-built combination of black iron pipe and fittings. My desk is exactly what I want and need because I built it for me! <br/> (Not pictured: typical clutter 😁)
+              </ParagBox>
+            </PicWCap>
+          </ContSubBox>
         </ContentBox>
       </PageWrapper>
     </>

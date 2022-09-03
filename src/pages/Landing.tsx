@@ -44,7 +44,7 @@ function Landing() {
           {/* Background */}
           <LandingBackground />
           {/* Foreground */}
-          <TitleBox>Software Engineer</TitleBox>
+          <TitleBox><i>Hello!</i><br/>I'm Peter</TitleBox>
         </ViewWrapper>
         <ContentBox>
           <PortraitBox>
