@@ -21,6 +21,7 @@ import desk from "../assets/Images/desk.jpg"
 
 interface ImgProps {
   src: any;
+  alt: string;
   height: string;
 }
 
@@ -77,7 +78,7 @@ function About() {
           <SubPageTitle>About Me</SubPageTitle>
         </ViewWrapper>
         <ContentBox>
-          <ContentPic height="25rem" src={mas} />
+          <ContentPic height="25rem" src={mas} alt="me_in_munich" />
           <WordsBox>
             <SubtitleBox>Hello There!</SubtitleBox>
             <ParagBox>
@@ -98,7 +99,7 @@ function About() {
           </WordsBox>
         </ContentBox>
         <ContentBox>
-          <ContentPic height="20rem" src={resp} />
+          <ContentPic height="20rem" src={resp} alt="me_in_respirator" />
           <WordsBox>
             <SubtitleBox>Professional Life</SubtitleBox>
             <ParagBox>
@@ -134,10 +135,10 @@ function About() {
               I can contribute to as well as learn from!
             </ParagBox>
           </WordsBox>
-          <ContentPic height="15rem" src={jobsite} />
+          <ContentPic height="15rem" src={jobsite} alt="a_random_jobsite" />
         </ContentBox>
         <ContentBox>
-          <ContentPic height="25rem" src={us_GH} />
+          <ContentPic height="25rem" src={us_GH} alt="me_with_shan" />
           <WordsBox>
             <SubtitleBox>Personal Life</SubtitleBox>
             <ParagBox>
@@ -154,13 +155,13 @@ function About() {
               some time with the dog, or planning our next travel adventure!
             </ParagBox>
           </WordsBox>
-          <ContentPic height="20rem" src={gram_car} />
+          <ContentPic height="20rem" src={gram_car} alt="fam_in_car" />
         </ContentBox>
         <SubtitleBox>Honorable Mentions</SubtitleBox>
         <ContentBox>
           <ContSubBox>
             <PicWCap>
-              <ContentPic height="15rem" src={PS_Logo} />
+              <ContentPic height="15rem" src={PS_Logo} alt="my_logo" />
               <ParagBox>
                 <h4>My Logo</h4>
               </ParagBox>
@@ -173,7 +174,7 @@ function About() {
               </ParagBox>
             </PicWCap>
             <PicWCap>
-            <ContentPic height="20rem" src={desk} />
+            <ContentPic height="20rem" src={desk} alt="my_desk" />
               <ParagBox>
                 <h4>My Desk</h4>
               </ParagBox>
