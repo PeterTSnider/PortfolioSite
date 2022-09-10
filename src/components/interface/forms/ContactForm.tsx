@@ -1,15 +1,36 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-
 const FormBox = styled.form`
-padding: 2rem;
-`
-const FormField = styled.div``
-const FormLabel = styled.label``
-const FormInput = styled.input``
-const FormBtn = styled.button``
+  padding: 2rem;
+  background-color: #212121;
+  border-radius: 1rem;
+`;
 
+const FormField = styled.div`
+display: flex;
+flex-direction: row;
+margin: 1rem;
+`;
+
+const FormLabel = styled.label`
+  font-size: 2rem;
+  padding: 0.3rem;
+`;
+
+const FormInput = styled.input`
+  font-size: 0.85rem;
+  color: #212121;
+  padding: 0.5rem;
+  margin: 0.25rem;
+  border-radius: 0.5rem;
+`;
+
+const FormBtn = styled.button`
+  color: #212121;
+  font-size: 2rem;
+  padding: 0.5rem;
+`;
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -33,22 +54,22 @@ const ContactForm = () => {
   };
   return (
     <FormBox onSubmit={handleSubmit}>
-        <h4>Contact Me</h4>
-        <FormField>
-            <FormLabel htmlFor="name">Name:</FormLabel>
-            <FormInput type="text" id="name" required/>
-        </FormField>
-        <FormField>
-            <FormLabel htmlFor="email">Email:</FormLabel>
-            <FormInput type="text" id="email" required/>
-        </FormField>
-        <FormField>
-            <FormLabel htmlFor="message">Message:</FormLabel>
-            <FormInput type="text" id="message" required/>
-        </FormField>
-        <FormBtn type="submit">{status}</FormBtn>    
+      <h5>Contact Me</h5>
+      <FormField>
+        <FormLabel htmlFor="name">Name:</FormLabel>
+        <FormInput type="text" id="name" required />
+      </FormField>
+      <FormField>
+        <FormLabel htmlFor="email">Email:</FormLabel>
+        <FormInput type="text" id="email" required />
+      </FormField>
+      <FormField>
+        <FormLabel htmlFor="message">Message:</FormLabel>
+        <FormInput type="text" id="message" required />
+      </FormField>
+      <FormBtn type="submit">{status}</FormBtn>
     </FormBox>
-  )
+  );
 };
 
-export default ContactForm
+export default ContactForm;

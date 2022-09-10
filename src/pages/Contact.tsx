@@ -15,6 +15,7 @@ const ContactBackground = styled(MainBox)`
 
 const FormBox = styled(SubPageTitle)`
   padding: 1rem;
+  border-radius: 1rem;
 `
 
 
