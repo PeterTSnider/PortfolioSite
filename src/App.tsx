@@ -5,6 +5,7 @@ import Landing from "./pages/Landing";
 import Creds from "./pages/Creds";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact"
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         <Route path="/creds" element={<Creds />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
