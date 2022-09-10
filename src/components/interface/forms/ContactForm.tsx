@@ -11,6 +11,7 @@ const FormField = styled.div`
 display: flex;
 flex-direction: row;
 margin: 1rem;
+justify-content: space-evenly;
 `;
 
 const FormLabel = styled.label`
@@ -19,17 +20,31 @@ const FormLabel = styled.label`
 `;
 
 const FormInput = styled.input`
-  font-size: 0.85rem;
-  color: #212121;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111111;
   padding: 0.5rem;
   margin: 0.25rem;
   border-radius: 0.5rem;
 `;
 
+const FormInputBig = styled.textarea`
+color: #111111;
+font-size: 1.2rem;
+font-weight: 500;
+border-radius: 0.75rem;
+margin: 0.25rem;
+padding: 0.75rem;
+`
+
 const FormBtn = styled.button`
   color: #212121;
   font-size: 2rem;
+  font-weight: 600;
   padding: 0.5rem;
+  border-radius: 1rem;
+  border-width: 5px;
+  text-align: start;
 `;
 
 const ContactForm = () => {
@@ -61,11 +76,11 @@ const ContactForm = () => {
       </FormField>
       <FormField>
         <FormLabel htmlFor="email">Email:</FormLabel>
-        <FormInput type="text" id="email" required />
+        <FormInput type="email" id="email" required />
       </FormField>
       <FormField>
         <FormLabel htmlFor="message">Message:</FormLabel>
-        <FormInput type="text" id="message" required />
+        <FormInputBig id="message" required />
       </FormField>
       <FormBtn type="submit">{status}</FormBtn>
     </FormBox>

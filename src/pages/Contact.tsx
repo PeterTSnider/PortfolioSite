@@ -18,8 +18,6 @@ const FormBox = styled(SubPageTitle)`
   border-radius: 1rem;
 `
 
-
-
 function Contact() {
   return (
     <>
