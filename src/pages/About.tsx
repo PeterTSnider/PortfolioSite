@@ -142,17 +142,10 @@ function About() {
           <WordsBox>
             <SubtitleBox>Personal Life</SubtitleBox>
             <ParagBox>
-              Happy to call the Ballard neighborhood of Seattle home, I live
-              with my girlfriend, Shannon (Shan), and our hundred-pound lap dog,
-              Chessa. Shan is a loving and brilliantly sharp RN in the
-              Cardiac-ICU. When Shan isn't saving lives and I'm not at the
-              keyboard, we like to get outside and on the trail for an overnight
-              backpacking trip, a visit with family, a SUP splash around a local
-              lake, or skiing in the winter.
+              I'm happy to call the Pacific Northwest home and have lived in Seattle for most of my adult life. When I'm not at the keyboard, I like to unplug and hit the trail for an overnight backpacking trip, go skiing when there's snow in the mountains, or get in the water and do some stand up paddling. I also love to travel and do my best to challenge my comfort zone in far off places!
             </ParagBox>
             <ParagBox>
-              If we aren't out and about, we're likely cooking at home, spending
-              some time with the dog, or planning our next travel adventure!
+              By my side for all my adventures is big cuddlebug mastiff/labrador named Chessa. She's into all the usual dog things (face licks, long walks to find sticks, and napping of course) but mostly she's just excited to be tagging along!
             </ParagBox>
           </WordsBox>
           <ContentPic height="20rem" src={gram_car} alt="fam_in_car" />
