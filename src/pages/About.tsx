@@ -13,8 +13,8 @@ import ParagBox from "../components/containers/PageBoxes/ParagBox";
 import summitlk1 from "../assets/Images/summitlk1.jpg";
 import mas from "../assets/Images/mas.jpg";
 import resp from "../assets/Images/respirator.jpg";
-import us_GH from "../assets/Images/us_GH.jpg";
-import gram_car from "../assets/Images/gram_car.jpg";
+import meSki2 from "../assets/Images/meSki2.jpg";
+import chessa from "../assets/Images/chessa.jpg";
 import jobsite from "../assets/Images/jobsite.jpg";
 import PS_Logo from "../assets/Images/PS_Logo.png";
 import desk from "../assets/Images/desk.jpg"
@@ -138,7 +138,7 @@ function About() {
           <ContentPic height="15rem" src={jobsite} alt="a_random_jobsite" />
         </ContentBox>
         <ContentBox>
-          <ContentPic height="25rem" src={us_GH} alt="me_with_shan" />
+          <ContentPic height="25rem" src={meSki2} alt="me_skiing" />
           <WordsBox>
             <SubtitleBox>Personal Life</SubtitleBox>
             <ParagBox>
@@ -148,7 +148,7 @@ function About() {
               By my side for all my adventures is big cuddlebug mastiff/labrador named Chessa. She's into all the usual dog things (face licks, long walks to find sticks, and napping of course) but mostly she's just excited to be tagging along!
             </ParagBox>
           </WordsBox>
-          <ContentPic height="20rem" src={gram_car} alt="fam_in_car" />
+          <ContentPic height="20rem" src={chessa} alt="my_dog" />
         </ContentBox>
         <SubtitleBox>Honorable Mentions</SubtitleBox>
         <ContentBox>
