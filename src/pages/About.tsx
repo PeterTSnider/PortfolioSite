@@ -13,8 +13,8 @@ import ParagBox from "../components/containers/PageBoxes/ParagBox";
 import summitlk1 from "../assets/Images/summitlk1.jpg";
 import mas from "../assets/Images/mas.jpg";
 import resp from "../assets/Images/respirator.jpg";
-import meSki2 from "../assets/Images/meSki2.jpg";
-import chessa from "../assets/Images/chessa.jpg";
+import meSki2 from "../assets/Images/meSkiAlp.jpg";
+import chessa from "../assets/Images/chessaSnow.jpg";
 import jobsite from "../assets/Images/jobsite.jpg";
 import PS_Logo from "../assets/Images/PS_Logo.png";
 import desk from "../assets/Images/desk.jpg"
