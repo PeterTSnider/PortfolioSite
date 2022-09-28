@@ -72,7 +72,7 @@ function Creds() {
           </DocsBox>
           <ButtonBox>
             <DocButton>
-              <a href="https://drive.google.com/file/d/11D5NSyhE10XYd3MkZeYVLE7Z-tPupv7h/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1flXDb7QvFYo6yWmnuNLWEUkII1p5DfV3/view?usp=sharing">
                 Resume
               </a>
             </DocButton>
