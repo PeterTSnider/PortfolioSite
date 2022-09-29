@@ -63,11 +63,11 @@ function Creds() {
           <DocsBox>
             <SubtitleBox>Resume and Diplomas</SubtitleBox>
             <CredsWords>
-              I hold a Bachelor's of Science in Environmental Science from
+              I hold a Bachelor of Science degree in Environmental Science from
               Washington State University and I attended and graduated from
               Coding Dojo's full-time onsite Software Development Bootcamp.
-              Please click a link below for a Google docs link to view or
-              download my resume and/or diplomas.{" "}
+              Please click the link below for Google docs link to view or
+              download my resume and/or diplomas.
             </CredsWords>
           </DocsBox>
           <ButtonBox>

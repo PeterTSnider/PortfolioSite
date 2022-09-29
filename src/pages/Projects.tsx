@@ -60,7 +60,7 @@ const LinkBox = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-`
+`;
 
 function Projects() {
   return (
@@ -77,15 +77,21 @@ function Projects() {
             <ProjDescription>
               <ProjName>This Site</ProjName>
               <ProjDescription>
-                In a much needed revamp of my existing personal website, I built
-                a very simple website using Reactjs with styled-components. Future upgrades include a refactor of the component/page structure, implementation of a styling framework for select user interactions, and an expansion of About Me to include periodic updates.
+                In a much-needed revamp of my existing personal website, I built
+                a very simple website using Reactjs with styled-components.
+                Future upgrades include a refactor of the component/page
+                structure, implementation of a styling framework for select user
+                interactions, and an expansion of About Me to include periodic
+                updates.
               </ProjDescription>
               <LinkBox>
                 <ProjLink>
                   <a href="https://www.petertsnider.com">Link</a>
                 </ProjLink>
                 <ProjLink>
-                  <a href="https://www.github.com/PeterTSnider/PortfolioSite">Github Repo</a>
+                  <a href="https://www.github.com/PeterTSnider/PortfolioSite">
+                    Github Repo
+                  </a>
                 </ProjLink>
               </LinkBox>
             </ProjDescription>

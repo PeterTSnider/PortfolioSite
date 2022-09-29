@@ -54,14 +54,7 @@ function Landing() {
             <SubtitleBox>
               An Experienced Project Manager Turned Aspiring Software Engineer
             </SubtitleBox>
-            In January of 2022 I made the exciting decision to lean into my
-            interest in software development and aptitude for programmatic
-            thinking in order to reinvent my career as a Software Engineer. As a
-            jump-start to this path, I attended the Onsite Full-Time Software
-            Development course provided by Coding Dojo. I am excited to bring my
-            hunger for learning, as well as my ten years of experience as a
-            project manager, to take on novel problems and work with a team to
-            build exciting software.
+            In January of 2022, I made the exciting decision to lean into my interest in software development and aptitude for programmatic thinking in order to reinvent my career as a Software Engineer. As a jump-start to this path, I attended the Onsite Full-Time Software Development course provided by Coding Dojo. I am excited to bring my hunger for learning, as well as my ten years of experience as a project manager, to take on novel problems and work with a team to build exciting software.
           </Profile>
         </ContentBox>
       </PageWrapper>
