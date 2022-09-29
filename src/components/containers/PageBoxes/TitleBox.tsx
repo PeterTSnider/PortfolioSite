@@ -6,7 +6,6 @@ interface Props {
 }
 
 const MainTitleBox = styled.div`
-  color: #dddddd;
   font-size: 4rem;
   border-style: solid;
   border-width: .5rem;

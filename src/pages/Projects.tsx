@@ -22,8 +22,6 @@ const ProjCard = styled.div`
   background-color: #212121;
   height: 20rem;
   width: 75vw;
-  transform: translateZ(-2px);
-  z-index: 1;
   margin: 5rem auto 0rem auto;
   border-radius: 2rem;
   display: flex;
@@ -72,34 +70,34 @@ function Projects() {
           <ProjectsBackground />
           {/* Foreground */}
           <SubPageTitle>Projects</SubPageTitle>
-          <ProjCard>
-            <ProjThumbnail src={PS_Logo} />
-            <ProjDescription>
-              <ProjName>This Site</ProjName>
-              <ProjDescription>
-                In a much-needed revamp of my existing personal website, I built
-                a very simple website using Reactjs with styled-components.
-                Future upgrades include a refactor of the component/page
-                structure, implementation of a styling framework for select user
-                interactions, and an expansion of About Me to include periodic
-                updates.
-              </ProjDescription>
-              <LinkBox>
-                <ProjLink>
-                  <a href="https://www.petertsnider.com">Link</a>
-                </ProjLink>
-                <ProjLink>
-                  <a href="https://www.github.com/PeterTSnider/PortfolioSite">
-                    Github Repo
-                  </a>
-                </ProjLink>
-              </LinkBox>
-            </ProjDescription>
-          </ProjCard>
-          <ProjCard>
-            <ProjDescription>(More projects on the way!)</ProjDescription>
-          </ProjCard>
         </ViewWrapper>
+        <ProjCard>
+          <ProjThumbnail src={PS_Logo} />
+          <ProjDescription>
+            <ProjName>This Site</ProjName>
+            <ProjDescription>
+              In a much-needed revamp of my existing personal website, I built a
+              very simple website using Reactjs with styled-components. Future
+              upgrades include a refactor of the component/page structure,
+              implementation of a styling framework for select user
+              interactions, and an expansion of About Me to include periodic
+              updates.
+            </ProjDescription>
+            <LinkBox>
+              <ProjLink>
+                <a href="https://www.petertsnider.com">Link</a>
+              </ProjLink>
+              <ProjLink>
+                <a href="https://www.github.com/PeterTSnider/PortfolioSite">
+                  Github Repo
+                </a>
+              </ProjLink>
+            </LinkBox>
+          </ProjDescription>
+        </ProjCard>
+        <ProjCard>
+          <ProjDescription>(More projects on the way!)</ProjDescription>
+        </ProjCard>
       </PageWrapper>
     </>
   );
