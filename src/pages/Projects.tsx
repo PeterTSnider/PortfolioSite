@@ -24,7 +24,7 @@ const ProjCard = styled.div`
   width: 75vw;
   transform: translateZ(-2px);
   z-index: 1;
-  margin: 7rem auto 0rem auto;
+  margin: 5rem auto 0rem auto;
   border-radius: 2rem;
   display: flex;
   align-items: center;

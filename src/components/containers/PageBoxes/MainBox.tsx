@@ -11,7 +11,7 @@ height: 100%;
 width: 100%;
 object-fit: cover;
 z-index: -1;
-transform: translateZ(-10px) scale(2);
+transform: translateZ(-15px) scale(3);
 `;
 
 const MainBox: React.FC<Props> = ({ children, ...props }) => {

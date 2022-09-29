@@ -11,10 +11,10 @@ const SubWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
     transform-style: preserve-3d;
-    z-index: -1;
+    z-index: -2;
 `
 
 const ViewWrapper: React.FC<Props> = ({children, ...props}) =>{
