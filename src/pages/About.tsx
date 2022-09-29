@@ -86,7 +86,7 @@ function About() {
               about my passions and pastimes, as well as my professional
               experience. I'm proud to call Seattle home and love everything
               about the Pacific Northwest. Please also have a look at my profile
-              on
+              on{" "}
               <BigLink href="https://www.github.com/PeterTSnider">
                 Github
               </BigLink>{" "}
