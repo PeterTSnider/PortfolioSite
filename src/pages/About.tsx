@@ -128,11 +128,10 @@ function About() {
               software development. Enrollment in a sixteen-week coding bootcamp
               resulted in the least amount of sleep I've ever survived on, but
               it gave me the skills to build with code, as well as the tools and
-              inspiration to continue learning. I'm excited at the prospect of
-              working with a team to build real, deployed apps to reach users
-              worldwide. I'm hungry to keep learning and can't wait to sink my
-              teeth into a codebase that I can both contribute to and learn
-              from!
+              inspiration to continue learning. I'm excited by building real,
+              deployed apps to reach users worldwide. I'm hungry to keep
+              learning and can't wait to sink my teeth into a codebase that I
+              can both contribute to and learn from!
             </ParagBox>
           </WordsBox>
           <ContentPic height="15rem" src={jobsite} alt="a_random_jobsite" />
