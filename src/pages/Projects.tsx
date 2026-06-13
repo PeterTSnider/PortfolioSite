@@ -9,6 +9,7 @@ import ExtLinkButton from "../components/interface/buttons/ExtLinkButton";
 // image imports:
 import vald_bbhill2 from "../assets/Images/vald_bbhill2.jpg";
 import PS_Logo from "../assets/Images/PS_Logo.png";
+import zipfyLogo from "../assets/Images/zipfy-logo-mark.png";
 
 interface Props {
   src: any;
@@ -96,7 +97,26 @@ function Projects() {
           </ProjDescription>
         </ProjCard>
         <ProjCard>
-          <ProjDescription>(More projects on the way!)</ProjDescription>
+          <ProjThumbnail src={zipfyLogo} />
+          <ProjDescription>
+            <ProjName>Zipfy</ProjName>
+            <ProjDescription>
+              Zipfy is a simple web app that explores one of the most surprising
+              patterns in language and data: Zipf's Law. Paste text or upload a
+              CSV file, and Zipfy will analyze how closely the frequency
+              distribution follows an ideal Zipf curve. It then generates a
+              Zipfy Score, summary statistics, and interactive visualizations to
+              help you understand the structure of your data.
+            </ProjDescription>
+            <LinkBox>
+              <ProjLink>
+                <a href="https://www.zipfy.dogpawsystems.com">Link</a>
+              </ProjLink>
+              <ProjLink>
+                <a href="https://github.com/PeterTSnider/Zipfy">Github Repo</a>
+              </ProjLink>
+            </LinkBox>
+          </ProjDescription>
         </ProjCard>
       </PageWrapper>
     </>
