@@ -31,6 +31,7 @@ const ProjCard = styled.div`
 
 const ProjThumbnail = styled.img<Props>`
   height: 100px;
+  width: 86px;
   border-radius: 0.5rem;
   margin: 2rem;
   justify-items: center;
@@ -110,7 +111,7 @@ function Projects() {
             </ProjDescription>
             <LinkBox>
               <ProjLink>
-                <a href="https://www.zipfy.dogpawsystems.com">Link</a>
+                <a href="https://zipfy.dogpawsystems.com/">Link</a>
               </ProjLink>
               <ProjLink>
                 <a href="https://github.com/PeterTSnider/Zipfy">Github Repo</a>
